@@ -2,9 +2,6 @@ function Lista2() {
 
   const nomes = ['Rodrigo', 'Caue', 'Pietra', 'Elaine']
 
-  const img = [
-
-  ]
 
   return (
     <>

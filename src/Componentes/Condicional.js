@@ -1,6 +1,18 @@
 function Condicional() {
 
- const Dinheiro = 50
+ const DinheiroAtual = 100
+ const Salario = 1000
+
+ function SalarioAtual(A, B){
+   var C = A + B
+   return(
+      C
+   )
+ }
+
+
+ var Total = SalarioAtual(DinheiroAtual, Salario)
+
  const Mercado = [
   { id: 1, name: 'Arroz', price: 12.50 },
   { id: 2, name: 'feijao', price: 10.00 },
@@ -12,9 +24,9 @@ function Condicional() {
 
  return (
   <div>
-   {Dinheiro >= 80 ?
+   {Total >= 80 ?
     (
-     <p> Shoow! Voce pode comprar este item. </p>
+     <p> {Total} </p>
     ) : (
      <p> poxa vida, voce nao possui Dinheiro pra compar a sua lista! </p>
     )
